@@ -1,5 +1,5 @@
-<?php 
-    get_header();
+<?php
+get_header();
 ?>
 
 <div class="col-md-2">
@@ -8,15 +8,15 @@
 
 <div class="col-md-8">
     <?php
-                        if (have_posts()): while (have_posts()): the_post();
+if (have_posts()): while (have_posts()): the_post();
 
-                                get_template_part('content-single', get_post_format());
+        get_template_part('content-single', get_post_format());
 
-                            endwhile;endif;
-                        ?>
+    endwhile;endif;
+?>
 
-        <?php next_posts_link( 'Older posts' ); ?>
-        <?php previous_posts_link( 'Newer posts' ); ?>
+        <?php next_posts_link('Older posts');?>
+        <?php previous_posts_link('Newer posts');?>
 
 </div>
 
@@ -25,5 +25,5 @@
 </div>
 
 <?php
-    get_footer();
+get_footer();
 ?>

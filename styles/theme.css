@@ -4,12 +4,11 @@ body {
 
 .header-bg {
     background: url('https://images.pexels.com/photos/175728/pexels-photo-175728.jpeg?cs=srgb&dl=berries-blur-blurry-175728.jpg&fm=jpg');
-
     background: url('https://images.pexels.com/photos/203088/pexels-photo-203088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background: url('https://images.pexels.com/photos/212275/pexels-photo-212275.jpeg?cs=srgb&dl=fog-landscape-mist-212275.jpg&fm=jpg');
-    color:#fff;
-    background-size:cover;
-    background-position-y:30%;
+    color: #fff;
+    background-size: cover;
+    background-position-y: 30%;
 }
 
 p {
@@ -18,35 +17,34 @@ p {
 }
 
 .posts {
-    min-height: 510px;
+    min-height: calc(100vh - 320px);
 }
 
 .footer {
-    background:rgba(0,0,0,0.05);
-    color:rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.4);
     font-weight: 300;
     text-align: center;
-    font-size:14px;
+    font-size: 14px;
+    min-height: 120px;
 }
 
 .nav {
-    height:46px;
+    height: 46px;
     line-height: 46px;
-
 }
 
 .nav li a {
-    color:rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     transition: 0.5s;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    color:rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.4);
     transition: 0.5s;
-
 }
 
 .paginator {
@@ -56,7 +54,6 @@ p {
 
 .paginator a {
     padding: 5px !important;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-
 }
